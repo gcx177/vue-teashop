@@ -70,11 +70,9 @@ export default {
         bounce: false
       })
 
-      // 由于数据渲染的图片和$refs获取的不一致性，这这里模拟一个异步的操作
-      // 目前没有想到更好的方法，这样才能正确地获取每个元素的高度
       setTimeout(() =>{
         this.getItemHeight()
-      }, 300)
+      }, 250)
     })
 
     this.$bus.$on('imageLoading', () => {
@@ -118,9 +116,12 @@ export default {
   },
   computed: {
     currentIndex() {
-      return this.allHeight.findIndex((item, i) => {
-        return this.scrollY >= item && this.scrollY < (this.allHeight[i+1] ? this.allHeight[i+1] : this.allHeight[i]+500)
+      const heightList = this.allHeight
+      const scrollY = this.scrollY
+      const a = heightList.findIndex((item, i) => {
+        return scrollY >= item && scrollY < (heightList[i+1] ? heightList[i+1] : heightList[i]+100)
       })
+      return a
     }
   }
 }
@@ -237,6 +238,6 @@ export default {
   overflow: hidden;
 }
 .right-nav:last-child {
-  height: 14.933333rem;
+  height: 15rem;
 }
 </style>
