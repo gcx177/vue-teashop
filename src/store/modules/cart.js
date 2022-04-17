@@ -102,7 +102,6 @@ export default {
 
                             state.selectList.splice(i, 1);
                         }
-
                     
                     } else {
                         // 多选删除
