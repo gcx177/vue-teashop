@@ -55,7 +55,7 @@
 
 - 商品购买、商品订单以及购物车
 
-![](https://gitee.com/guo-changxiong/store_image/raw/master/teashop_images/goods.jpg)
+![](https://github.com/gcx177/vue-teashop/raw/master/images/person.jpg)
 
 ## 感谢
 
