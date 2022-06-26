@@ -43,19 +43,19 @@
 
 - 个人中心
 
-![](https://gitee.com/guo-changxiong/store_image/raw/master/teashop_images/person.jpg)
+![](https://github.com/gcx177/vue-teashop/raw/master/images/person.jpg)
 
 - 商城首页
 
-![](https://gitee.com/guo-changxiong/store_image/raw/master/teashop_images/homepage.jpg)
+![](https://github.com/gcx177/vue-teashop/raw/master/images/homepage.jpg)
 
 - 商品搜索及展示
 
-![](https://gitee.com/guo-changxiong/store_image/raw/master/teashop_images/search.jpg)
+![](https://github.com/gcx177/vue-teashop/raw/master/images/search.jpg)
 
 - 商品购买、商品订单以及购物车
 
-![](https://github.com/gcx177/vue-teashop/raw/master/images/person.jpg)
+![](https://github.com/gcx177/vue-teashop/raw/master/images/goods.jpg)
 
 ## 感谢
 
